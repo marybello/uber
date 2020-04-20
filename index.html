@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Uber</title>
+    <style>
+        #last-right a{
+            text-decoration: none;
+        }
+        #last-left a{
+            text-decoration: none;
+        }
+        #last-left a:hover{
+            background-color: blue;
+            color: white;
+
+        }
+        #last-left, #last-right{
+            border: 1px solid black;
+            display: block;
+            margin: 10px 10px 10px 0px;
+            width: 140px;
+            color: blue;
+        }
+        #last-left a::before{
+            content: "\21d2 Sign up to ";
+            font-weight: bold;
+        }
+        #last-right a::before{
+            content: "\21d2 Sign up to ";
+            font-weight: bold;
+        }
+      aside  a{
+            text-decoration: none;
+            color: white;
+        }
+#aside-left{
+display: inline-block;
+width: 48%;
+margin-left: 20px;
+margin-top: 10px;
+}
+#aside-right{
+display: inline-block;
+width: 48%;
+margin-top: -10px;
+text-align: right;
+}
+#nav{
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+#left-nav{
+width: 48%;
+text-align: left;
+display: inline-block;
+}
+#right-nav{
+width: 48%;
+text-align: right;
+display: inline-block;
+}
+.left{
+    padding: 10px;
+
+}
+.right{
+    padding: 10px;
+}
+#left-side, #right-side{
+display: inline-block;
+width: 45%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <div id="nav">
+        <span>Uber</span>
+        <aside id="left-nav">
+        <a  class="left" href="">Drive</a>
+        <a class="left" href="">Ride</a>
+        <a class="left" href="">More</a> </aside>
+<aside id="right-nav">
+        <a class="right" href="" >Log in</a>
+        <a class="right" href="" >Sign up</a>
+    </aside>
+    </div>
+    <div id="aside-left">
+<div> <h2 style="font-size: 30px; font-family: Arial, Helvetica, sans-serif; ">Move the way<br> you want</h2></div>
+<div id="left-side">
+    <h3>Drive</h3>
+    <p>Drive when you want. Find<br> opportunities around you</p>
+    <a href="">Learn more</a>
+    <div id="last-left"><a href="">drive</a></div>
+
+</div>
+    <div id="right-side">
+        <h3>Ride</h3>
+        <p>Tap your phone. Get where <br>you're headed.</p>
+        <a href="">Learn more</a>
+        <div id="last-right"><a href="">Ride</a></div>
+    </div>
+    
+</div>
+<div id="aside-right">
+    <img style="height: 500px; width: auto;" src="pictures/HAND.jpg" alt="Hands out of the window">
+</div>
+</body>
+</html>
